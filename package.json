@@ -1,0 +1,25 @@
+{
+  "name": "connect-redis-hono",
+  "version": "0.2.0",
+  "description": "Redis session store-connector to work with hono-sessions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossunit/connect-redis-hono.git"
+  },
+  "keywords": [
+    "hono",
+    "session",
+    "redis"
+  ],
+  "author": "crossunit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crossunit/connect-redis-hono/issues"
+  },
+  "homepage": "https://github.com/crossunit/connect-redis-hono#readme",
+  "dependencies": {
+    "hono-sessions": "^0.3.2"
+  }
+}
